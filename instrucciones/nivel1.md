@@ -211,7 +211,7 @@ Atención: No se olviden de la `,` para separar múltiples valores.
   };
   ```
    
-  Ahora para ver si tenemos algún error en `handleErrors`,
+  Ahora para ver si tenemos algún error en `manejarErrores`,
   vamos a chequear si hay errores de manera diferente.
   tenemos que iterar por cada par de llave-valor (key-value pair) del objeto
   de errores.
@@ -222,7 +222,7 @@ Atención: No se olviden de la `,` para separar múltiples valores.
   let cuentaErrores = 0;
   ```
   
-  6. Verificamos si hay un error en `nombr`e
+  6. Verificamos si hay un error en `nombre`
   
   ```
   if (errores.nombre) {
